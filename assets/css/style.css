@@ -1,14 +1,16 @@
 :root {
-	--grey: rgb(90, 90, 90);
-	/* Columbia Blues: https://visualidentity.columbia.edu/content/colors-1 */
-	--blue1: rgb(2,33,105);
-	--blue2: rgb(0,51,160);
-	--blue3: rgb(0,114,206);
-	--blue4: rgb(108,172,228);
-	--pink1: #F9564F;
- }
+    --grey: rgb(90, 90, 90);
+    /* Columbia Blues: https://visualidentity.columbia.edu/content/colors-1 */
+    --blue1: rgb(2, 33, 105);
+    --blue2: rgb(0, 51, 160);
+    --blue3: rgb(0, 114, 206);
+    --blue4: rgb(108, 172, 228);
+    --pink1: #F9564F;
+}
 
-html, p{
+html,
+p {
+    /* text-transform: lowercase; */
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,11 +22,13 @@ html, p{
     letter-spacing: 0.5px;
     color: var(--grey);
 }
-p{
+
+p {
     margin: 0.2em;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -35,7 +39,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:  var(--pink1);
+    color: var(--pink1);
 }
 
 i {
@@ -55,6 +59,7 @@ strong {
     color: #fdc450;
     font-weight: 700;
 }
+
 
 /**************************************************/
 
@@ -83,6 +88,7 @@ strong {
     color: var(--pink1);
 }
 
+
 /**************************************************/
 
 #profile {
@@ -110,7 +116,6 @@ strong {
     text-align: center;
 }
 
-
 #profile-email {
     margin-bottom: 20px;
     color: var(--blue1);
@@ -120,7 +125,6 @@ strong {
 #profile p {
     margin-bottom: 20px;
 }
-
 
 .divider {
     width: 100%;
