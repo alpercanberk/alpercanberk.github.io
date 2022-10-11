@@ -1,1 +1,0 @@
-# alpercanberk.github.io
