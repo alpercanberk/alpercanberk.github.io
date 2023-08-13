@@ -17,8 +17,8 @@ p {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-family: inter;
+    font-weight: 350;
     letter-spacing: 0.5px;
     color: var(--grey);
 }
@@ -103,8 +103,9 @@ strong {
 }
 
 #profile img {
-    width: 400px;
+    width: 300px;
     margin-bottom: 18px;
+    border-radius: 5px;
 }
 
 #profile-name {
@@ -146,5 +147,5 @@ strong {
 
 .research-proj-title {
     color: var(--blue1);
-    font-weight: 400;
+    font-weight: 600;
 }
