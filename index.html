@@ -6,6 +6,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <link rel="icon" type="images/svg+xml" href="/images/icons/cair.svg">
+    <!-- PNG Favicon -->
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32x32.png">
+    <link rel="alternate icon" type="image/png" sizes="16" 16="/assets/images/icons/favicon-16x16.png">
+
+    <!-- ICO Favicon -->
+
+    <meta name="description" content="I'm a second year Computer Science student at Columbia University, and an aspiring AI researcher. " />
     <title> Alper Canberk </title>
 </head>
 
@@ -25,23 +34,13 @@
                 <div id="profile-name">Alper Canberk</div>
                 <div id="profile-email">ac4983 at columbia dot edu</div>
                 <p>
-                    I'm a second year Computer Science student at Columbia University, and an aspiring AI researcher. 
+                    I'm a second year Computer Science student at Columbia University, and an aspiring AI researcher.  </p>
 
-                    <p>For a long time, I've been fascinated by Robotic Learning and Embodied AI. Not only do I believe that 
-                        flexible physical automation holds a lot of value, but I also find the field enjoyable
-                        
-                        creative and challenging.</p>
+                    <p>I am fascinated by <b>Embodied AI</b>. I not only believe that <i>intelligent</i> physical automation can help humanity tackle epic challenges, but I find joy studying the field; it poses difficult problems to ponder, philosophical questions to answer, countless design decisions to make, and creative solutions to dream of. </p>
+
+                    <p>Nowadays I’m interested in leveraging large unlabeled data / generating synthetic data for robotics using internet scale pre-trained models. If you would like to collaborate, feel free to reach out! </p>
                     
 
-
-                </p>
-                <!-- <p>
-                    I'm fortunate to be a member of Columbia AI and Robotics lab, mentored by <a href="https://www.cs.columbia.edu/~huy/">Huy Ha</a> and advised by Professor <a href="https://www.cs.columbia.edu/~shurans/">Shuran Song</a>. I've dabbled
-                    in human-robot interaction and deformable object manipulation, nowadays I'm mostly interested in language.
-                </p> -->
-                <p>
-                    When I'm not debugging my simulator, I enjoy exploring art museums and coffee shops in NYC, reading hard sci-fi, and playing ultimate frisbee.
-                </p>
                 <div>
                     <a href="assets/files/cv.pdf">
                       CV
@@ -79,9 +78,9 @@
 
             <div>
                 <a href="https://clothfunnels.cs.columbia.edu/" style="height: 12em;" class="research-thumb">
-                    <video loop autoplay muted width="320" height="auto" src="assets/images/cf2.mp4" />
-                    <!-- <img 
-                    </video> -->
+                    <div class="video-container">
+                        <video loop autoplay muted src="assets/images/cf2.mp4" class="thumbnail-video"/>
+                    </div>
                 </a>
                 <a href="https://clothfunnels.cs.columbia.edu/" class="research-proj-title">
                     Cloth Funnels: Canonicalized-Alignment
@@ -97,7 +96,11 @@
             </div>
             <div>
                 <a href="" style="height: 12em;" class="research-thumb">
-                    <img width="320" height="auto" src="https://iliad.stanford.edu/images/publications/li2021learning.png" />
+                    <!-- <img width="320" height="auto" src="https://iliad.stanford.edu/images/publications/li2021learning.png" /> -->
+                    <div class="video-container">
+                        <video loop autoplay muted src="assets/images/iliad_hri_corrections.mp4" class="thumbnail-video"/>
+                    </div>
+
                     <a href="https://arxiv.org/abs/2104.00078" class="research-proj-title">
                     Learning Human Objectives from Sequences of Physical Corrections
                 </a>
@@ -117,10 +120,14 @@
             <div style="clear: both;"></div>
         </div>
         <div class="divider"></div>
-        <div style="display:flex;flex-direction: column;" id="research">
-            <div id="teaching">
-                <h1>Projects</h1>
+        <div style="display:flex;flex-direction: column;" id="projects">
+            <h1>Projects</h1>
+
+            <div id="projects">
                 <!-- <img src="assets/images/review.jpeg" alt=""> -->
+
+                
+
                 <div>
                     <a href="" style="height: 12em;" class="research-thumb">
                         <img width="320" height="auto" src="assets/images/whiteboard.gif" />
@@ -155,20 +162,41 @@
 
                     </p>
             </div>
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img width="320" height="auto" src="assets/images/videounderstanding.png" />
+                    <a href="" class="research-proj-title">
+                    State of Video Understanding Models as Robot Task Verifiers – Topics in Robot Learning Final Project 
+                </a>
+                    <p>
+                        In this report, we examine the effects of camera angle, video input segment, the object of interest, and background on the ability of video understanding models to accurately classify robot actions. Additionally, we explore how to best utilize the action classifier's output in robotic manipulation. 
+                        
+                        <br><b>December 2022</b> </p>
+                        <a href="assets/files/video_understanding_models.pdf">PDF</a>
+
+                    <!-- <a href="https://alpercanberk.medium.com/how-to-make-a-unity-app-for-oculus-quest-2-part-2-hand-tracking-whiteboard-e3e97887d3c8">Medium</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                    <!-- <a href="https://github.com/alpercanberk/Handtracking-Whiteboard-Oculus">GitHub</a> -->
+
+                    </p>
+            </div>
         </div>
         <div class="divider"></div>
         <div style="display:flex;flex-direction: column;" id="research">
             <div id="teaching">
-                <h1>Service</h1>
+                <h1>Teaching & Service</h1>
                 <!-- <img src="assets/images/review.jpeg" alt=""> -->
                 <div>
                     <ul style="list-style-type: circle;">
                         <li>
-                            Conference Reviewer for ICRA 2023
+                            Teaching Assistant for CS 4231 Analysis of Algorithms I with Tim Roughgarden – Fall 2023
                         </li>
                         <li>
-                            RSS 2022 Volunteer
+                            Conference Reviewer for IEEE International Conference on Robotics and Automation (ICRA) – Spring 2023
                         </li>
+                        <li>
+                            Student Volunteer for Robotics: Science and Systems Conference (RSS) – Summer 2022
+                        </li>
+                       
                     </ul>
                 </div>
             </div>
