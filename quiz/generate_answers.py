@@ -120,6 +120,7 @@ questions = [
         "options": ["Cappadocia", "Antalya", "Bursa", "Trabzon"],
         "answer": "Cappadocia"
     },
+
 ]
 
 # Add a secret message to be encrypted
